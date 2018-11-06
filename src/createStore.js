@@ -22,3 +22,4 @@ function render() {
 }
 
 let store = createStore(countReducer);
+store.dispatch({ type: '@@INIT' });
